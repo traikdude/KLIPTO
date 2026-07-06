@@ -1,0 +1,10 @@
+{
+  "name": "Qklipto AI",
+  "description": "An AI-powered clipboard and snippet manager that uses Gemini to summarize, categorize, and explain your saved content.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

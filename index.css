@@ -1,0 +1,46 @@
+/* Custom CSS styles for Qklipto AI */
+
+.note-card-container.is-selected {
+  background-color: #ECEFF1 !important;
+  border-left: 4px solid #1E88E5 !important;
+  transition: border-left 0.15s ease-in-out, background-color 0.15s ease-in-out;
+}
+
+/* High contrast dark text when a card is selected (background is light grey #ECEFF1) */
+.note-card-container.is-selected h3 {
+  color: #0f172a !important; /* Slate-900 */
+}
+
+.note-card-container.is-selected p {
+  color: #334155 !important; /* Slate-700 */
+}
+
+.note-card-container.is-selected pre {
+  color: #1e293b !important; /* Slate-800 */
+  background-color: rgba(15, 23, 42, 0.06) !important;
+  border-color: rgba(15, 23, 42, 0.12) !important;
+}
+
+.note-card-container.is-selected span,
+.note-card-container.is-selected time,
+.note-card-container.is-selected .card-time-span {
+  color: #475569 !important; /* Slate-600 */
+}
+
+.note-card-container.is-selected .tag-capsule {
+  background-color: rgba(30, 136, 229, 0.15) !important;
+  color: #1e88e5 !important;
+  border-color: rgba(30, 136, 229, 0.25) !important;
+}
+
+.note-card-container.is-selected .star-btn {
+  color: #ca8a04 !important; /* Dark Gold/Amber */
+}
+
+.note-card-container.is-selected .unstarred-btn {
+  color: #64748b !important;
+}
+
+.note-card-container.is-selected .metadata-text {
+  color: #475569 !important;
+}
